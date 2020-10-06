@@ -22,6 +22,8 @@
 				<Item Name="Get Abs Position (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Abs Position (Reply Payload)--cluster.ctl"/>
 				<Item Name="Set Abs Position Argument--cluster.ctl" Type="VI" URL="../Set Abs Position Argument--cluster.ctl"/>
 				<Item Name="Move Home Argument--cluster.ctl" Type="VI" URL="../Move Home Argument--cluster.ctl"/>
+				<Item Name="Controller Status Argument--cluster.ctl" Type="VI" URL="../Controller Status Argument--cluster.ctl"/>
+				<Item Name="Controller Status (Reply Payload)--cluster.ctl" Type="VI" URL="../Controller Status (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -38,6 +40,7 @@
 			<Item Name="Get Abs Position.vi" Type="VI" URL="../Get Abs Position.vi"/>
 			<Item Name="Set Abs Position.vi" Type="VI" URL="../Set Abs Position.vi"/>
 			<Item Name="Move Home.vi" Type="VI" URL="../Move Home.vi"/>
+			<Item Name="Controller Status.vi" Type="VI" URL="../Controller Status.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -171,4 +174,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Init Device.vi" Type="VI" URL="../Init Device.vi"/>
 </Library>
